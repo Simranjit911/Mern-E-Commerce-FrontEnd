@@ -16,7 +16,7 @@ import ProductDetails from "./pages/ProductDetails"
 import CartPage from "./pages/CartPage";
 import Success from "./pages/Success";
 import Cancel from "./pages/Cancel";
-import Footer from "./components/Footer";
+
 
 const App = () => {
   return (
@@ -29,11 +29,11 @@ const App = () => {
         <Route path="/forgetpassword" element={<Forgetpassword />} />
         <Route path="/product/:id" element={<ProductDetails />} />
         <Route path="/cart" element={<CartPage />} />
+        <Route path="/dashboard/user/success" element={<Success />} />
+        <Route path="/dashboard/user/cancel" element={<Cancel />} />
 
         <Route path="/dashboard" element={<PrivateRoute />}>
           <Route path="/dashboard/user" element={<Userdashboard />} />
-        <Route path="/dashboard/user/success" element={<Success />} />
-        <Route path="/dashboard/user/cancel" element={<Cancel />} />
           <Route path="/dashboard/user/edit" element={<Edituser/>} />
         </Route>
         <Route path="/dashboard" element={<AdminRoute />}>
