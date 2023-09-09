@@ -50,7 +50,7 @@ const Home = () => {
               className="w-full mx-auto shadow-xl"
             />
           </div>
-          <div className="container grid mx-auto sm:grid-cols-2 md:grid-cols-2 md:px-10 lg:grid-cols-3 xl:grid-cols-4 container my-10 mt-12 px-3 gap-y-3">
+          <div className="container grid mx-auto sm:grid-cols-2 md:grid-cols-2 md:px-10 lg:grid-cols-3 xl:grid-cols-4 container my-10 md:mt-12 px-3 gap-y-3">
             {filteredProducts.length === 0 ? (
               // Display a "No data found" message when no results are found
               <div className="self-center  text-gray-600">No Product found.</div>
