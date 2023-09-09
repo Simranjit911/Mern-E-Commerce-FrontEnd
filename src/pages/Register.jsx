@@ -9,7 +9,7 @@ function Register() {
   //   const url = import.meta.env.PATH;
   const [formData, setFormData] = useState({
     name: "",
-    phone: 4445,
+    phone: null,
     email: "",
     password: "",
     secretanswer: "",
