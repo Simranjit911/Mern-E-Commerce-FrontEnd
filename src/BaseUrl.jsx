@@ -1,1 +1,1 @@
-export  const url="http://localhost:3200"
+export  const url="https://mern-e-commerce-backend-dsgw.onrender.com"
