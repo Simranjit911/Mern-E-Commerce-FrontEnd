@@ -127,6 +127,18 @@ function Navbar() {
                   Signup
                 </Link>
               </li>
+              <li>
+                <Link to="/cart" className="hover:text-gray-300">
+                  Cart
+                  <span
+                    className={`relative bottom-2 right-0 text-xs ${
+                      cartL > 0 && "animate-bounce delay-500 transition-all"
+                    }`}
+                  >
+                    {cartL.length > 0 ? `${cartL.length}` : " "}
+                  </span>
+                </Link>
+              </li>
             </ul>
           )}
         </div>
