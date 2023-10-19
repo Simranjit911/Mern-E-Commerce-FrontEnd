@@ -20,5 +20,4 @@ Live Demo-https://mern-e-commerce-front-end.vercel.app
 - Mongoose v7 as ODM
 - REST API using Express
 - Encrypted Password Saving using Bcrypt Js
-- API Authentication using Passport JWT
 - MongoDB Atlas cloud database
